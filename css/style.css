@@ -1,0 +1,212 @@
+/* h1{
+    
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: blue;
+      
+} */
+
+/* basic typography */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+/* main div */
+/* .mainDashboard{
+    height: 900px;
+    width: 1440px;
+    top: -450px;
+    left: -720px;
+    border-radius: 30px;
+    background-color: #292121;
+} */
+
+.mainDashboard {
+    /* height: 900px; */
+    width: 1440px;
+    /* top: -450px; */
+    /* left: -720px; */
+    /* border-radius: 30px; */
+    background-color: #161515;
+    padding: 44px;
+}
+
+.mainDashboard .dtitle{
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    color: #FFFFFF;
+    opacity: 60%;
+    margin-left: 110px;
+}
+
+/* .mainDashboard .dashboard{
+    height: 900px;
+    width: 1440px;
+    top: -450px;
+    left: -720px;
+    border-radius: 30px;
+    background-color: #000000;
+} */
+
+.mainDashboard .dashboard {
+    height: 900px;
+    width: 1286px;
+    top: -450px;
+    left: -720px;
+    /* padding: 16px; */
+    /* margin: 68px; */
+    margin-left: 90px;
+    border-radius: 30px;
+    background-color: #000000;
+}
+
+/* left sidebar */
+/* .mainDashboard .leftSidebar{
+    width: 197px;
+    height: 651px;
+    padding-top: 65px;
+    margin-left: 80px;
+} */
+
+.mainDashboard .leftSidebar {
+    width: 197px;
+    height: 651px;
+    padding-top: 65px;
+    margin-left: 43px;
+    /* border: 1px solid blue; */
+}
+.leftSidebar .logoPic{
+    width: 72px;
+    height: 72px;
+    top: 80px;
+    left: 80px;
+}
+
+.leftSidebar .logoPic img{
+    border-radius: 20%;
+    width: 72px;
+    height: 72px;
+}
+
+.leftSidebar .logoPic .bage{
+    color: aliceblue;
+    background-color: red;
+    padding: 5px 9px;
+    border-radius: 50%;
+    position: absolute;
+    top: 124px;
+    left: 232px;
+    width: 29px;
+    height: 29px;
+}
+
+.leftSidebar .samantha{
+    width: 163px;
+    height: 35px;
+    top: 172px;
+    left: 80px;
+}
+
+.leftSidebar .samantha h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.leftSidebar .samantha p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #FFFFFF;
+    opacity: 60%;
+}
+
+/* down part */
+
+.leftSidebar .menuPart{
+    width: 142px;
+    height: 360px;
+    margin-top: 130px;
+    left: 80px;
+}
+
+.leftSidebar .menuPart ul{
+    list-style: none;
+}
+.leftSidebar .menuPart ul li a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 58px;
+    color: #FFFFFF;
+    text-decoration: none;
+    opacity: 50%;
+}
+
+.leftSidebar .menuPart ul li a:hover{
+    text-decoration: underline;
+    opacity: 100%;
+}
+
+/* right sidebar */
+
+.content{
+    /* width: 1060px;
+    height: 860px;
+    margin-top: -640px;
+    margin-left: 278px;
+    border: 1px solid red;
+    background-color: #ffffff;
+    border-radius: 3%; */
+
+    width: 1060px;
+    height: 838px;
+    margin-top: -668px;
+    margin-left: 250px;
+    /* border: 1px solid red; */
+    /* background-color: #ffffff; */
+    /* border-radius: 3% 0% 0% 3%; */
+    /* border-radius: 3%; */
+}
+
+.content .mainContent{
+    /* width: 632px;
+    height: 741px;
+    margin-top: 46px;
+    padding: 30px;
+    margin-left: -1px;
+    border: 1px solid rgb(229, 233, 9); */
+
+    width: 620px;
+    height: 836px;
+    margin-top: 46px;
+    /* padding: 30px; */
+    margin-left: 61px;
+    /* border: 1px solid rgb(229, 233, 9); */
+    background-color: #ffffff;
+    border-radius: 3% 0% 0% 3%;
+}
+
+.content .rightContent{
+    width: 330px;
+    height: 836px;
+    margin-top: -836px;
+    margin-left: 681px;
+    /* padding: 71px 6px; */
+    /* border: 1px solid rgb(18, 163, 18); */
+    background-color: #F9FAFC;
+    border-radius: 0% 4% 4% 0%;
+}
