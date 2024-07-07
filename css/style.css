@@ -113,8 +113,9 @@ body, html{
 .leftSidebar .samantha{
     width: 163px;
     height: 35px;
-    top: 172px;
-    left: 80px;
+    margin-top: 10px;
+    /* top: 172px;
+    left: 80px; */
 }
 
 .leftSidebar .samantha h2{
@@ -198,6 +199,7 @@ body, html{
     /* border: 1px solid rgb(229, 233, 9); */
     background-color: #ffffff;
     border-radius: 3% 0% 0% 3%;
+    padding: 40px;
 }
 
 /* ep */
@@ -211,25 +213,25 @@ body, html{
     left: 460px; */
     /* margin-top: 80px; */
 
-    width: 619px;
-    height: 836px;
-    border: 1px solid red;
-    /* margin-top: 80px; */
-    /* margin-left: 33px; */
-    padding: 40px;
-}
-
-.content .mainContent .mc .ep{
-    width: 619px;
-    height: 260px;
+    width: 580px;
+    height: 796px;
     /* border: 1px solid red; */
     /* margin-top: 80px; */
     /* margin-left: 33px; */
-    padding: 40px;
+    padding: 10px;
+}
+
+.content .mainContent .mc .ep{
+    width: 550px;
+    height: 183px;
+    /* border: 1px solid red; */
+    /* margin-top: 80px; */
+    /* margin-left: 33px; */
+    /* padding: 40px; */
 }
 /* chart */
 .content .mainContent .mc .ep .chart{
-    width: 510px;
+    width: 550px;
     height: 75px;
     /* background-color: #157AFF; */
     opacity: 20%;
@@ -469,7 +471,10 @@ body, html{
     width: 230px;
     height: 53px;
     /* border: 1px solid red; */
-    float: right;
+    /* float: right; */
+    justify-content: end;
+    display: flex;
+    margin-left: 296px;
 }
 
 .content .mainContent .mc .ep .profile ul{
@@ -492,10 +497,9 @@ body, html{
 }
 
 .content .mainContent .mc .today{
-    width: 619px;
-    height: 38px;
-    padding: 40px;
-    margin-top: -44px;
+    width: 550px;
+    height: 44px;
+    margin-top: 44px;
     
     /* border: 1px solid red; */
     
@@ -517,38 +521,92 @@ body, html{
     color: #D8D8D8;
     font-weight: bold;
     font-size: 33px;
-    padding-right: 30px;
+    padding-right: 22px;
     margin-top: -23px;
 }
 
 .content .mainContent .mc .hr{
-    margin-left: 38px;
-    width: 510px;
+    width: 530px;
 }
 
 .content .mainContent .mc .grocery{
     float: left;
-    width: 619px;
-    height: 105px;
-    padding: 40px;
+    width: 550px;
+    height: 60px;
     display: flex;
-    margin-top: -7px;
+    margin-top: 8px;
 
     
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .content .mainContent .mc .grocery .cart{
-    margin-right: 36px;
+    margin-right: 22px;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: blue;
+    border-radius: 50%;
+}
+
+.content .mainContent .mc .grocery .cart h2{
+    color: #fff;
+}
+
+.content .mainContent .mc .grocery .grocery1 h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #273240;
+}
+
+.content .mainContent .mc .grocery .grocery1 span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #404852;
+    opacity: 50%;
 }
 
 .content .mainContent .mc .grocery .grocery1{
-    margin-right: 366px;
+    margin-right: 36px;
+    width: 200px;
+    height: 50px;
+    /* border: 1px solid; */
 }
 
 .content .mainContent .mc .grocery .num{
-
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 223px;
 }
+
+.content .mainContent .mc .grocery .num h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    /* line-height: 21px; */
+    color: #273240;
+    text-align: right;
+    /* opacity: 50%; */
+}
+
+/* monday */
+/* .content .mainContent .mc .monday{
+    width: 550px;
+    height: 44px;
+    margin-top: 44px;
+} */
+
+/* margin-top: 240px !important; */
+/* width: 551px; */
+/* height: 347px; */
+/* border: 1px solid blue; */
+
+
 
 .content .rightContent{
     width: 330px;
@@ -560,3 +618,219 @@ body, html{
     background-color: #F9FAFC;
     border-radius: 0% 4% 4% 0%;
 }
+
+.content .rightContent .progress_bar{
+    height: 480px;
+    width: 331px;
+    /* border: 1px solid red; */
+    padding: 30px;
+}
+
+.content .rightContent .progress_bar .ptitle{
+    height: 40px;
+    width: fit-content;
+    margin-top: 30px;
+}
+
+.content .rightContent .progress_bar .ptitle h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    /* line-height: 30px; */
+    color: #262A41;
+}
+
+
+/* 1st progress title */
+
+.content .rightContent .progress_bar .food{
+    margin-top: 23px;
+}
+
+.content .rightContent .progress_bar .food .progressTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .rightContent .progress_bar .food .progressTitle p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #273240;
+}
+
+.content .rightContent .progress_bar .food .progressTitle label{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #273240;
+}
+
+.content .rightContent .progress_bar .food .progress{
+    height: 8px;
+    display: flex;
+    /* height: 1rem; */
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    margin-top: 7px;
+}
+
+.content .rightContent .progress_bar .food .progress .progress-bar-food{
+    width: 70px;
+    background: none;
+}
+
+.content .rightContent .progress_bar .food .progress .skillsAnimate {
+    width: 100%;
+    height: 10px;
+    background: #20c997;
+    border-radius: 5px;
+    animation-name: skillsAnimate;
+    animation-duration: 1s;
+}
+
+@keyframes skillsAnimate{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+/* end progress bar */
+
+.content .rightContent .save{
+    height: 295px;
+    width: 330px;
+    /* border: 1px solid red; */
+    padding: 30px;  
+    background-color: #EDF0F6;
+    border-radius: 26px;
+    margin-top: 20px;
+}
+
+.content .rightContent .save .fpic{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -60px;
+}
+
+.content .rightContent .save .lpic{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid red; */
+    /* padding: 30px;   */
+    /* background-color: #EDF0F6; */
+    /* border-radius: 26px; */
+    /* margin-top: 20px; */
+    /* float: left; */
+}
+
+.content .rightContent .save .lpic img{
+    height: 100px;
+    width: 100px;
+}
+
+.content .rightContent .save .rpic img{
+    height: 100px;
+    width: 74px;
+    align-items: baseline;
+    text-align: left;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-left: 25px;
+}
+
+
+.content .rightContent .save .rpic{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid red; */
+    /* float: right; */
+    /* padding: 30px;   */
+    /* background-color: #EDF0F6; */
+    /* border-radius: 26px; */
+    /* margin-top: 20px; */
+}
+
+.content .rightContent .save .ftext{
+    /* height: 150px;
+    width: 330px; */
+    /* border: 1px solid red; */
+    /* padding: 30px;   */
+    /* background-color: #EDF0F6; */
+    /* border-radius: 26px; */
+    margin-top: 20px;
+}
+
+.content .rightContent .save .ftext h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #273240;
+}
+
+.content .rightContent .save .ftext p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #404852;
+    line-height: 20px;
+    margin-top: 10px;
+    opacity: 70%;
+}
+
+.content .rightContent .save .ftext .fbtn button{
+    margin-top: 8px;
+    text-align: center;
+    background-color: #101010;
+    padding: 6px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    border: none;
+    width: 270px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.content .rightContent .save .ftext .fbtn button:hover{
+    /* margin-top: 8px; */
+    /* text-align: center; */
+    background-color: #ff0080;
+    /* padding: 14px; */
+    /* border-radius: 20px; */
+    color: #20c997;
+    /* border: none; */
+    /* width: 270px; */
+    cursor: pointer;
+
+}
+
+/* .content .rightContent .save .ftext .fbtn:hover{ */
+    /* margin-top: 8px; */
+    /* text-align: center; */
+    /* background-color: #FFFFFF; */
+    
+    /* cursor: move; */
+    /* padding: 6px; */
+    /* border-radius: 20px; */
+/* } */
+
+/* .content .rightContent .save .ftext .fbtn button{
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.content .rightContent .save .ftext .fbtn button:hover{
+    color: #157AFF;
+} */
